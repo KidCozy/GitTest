@@ -4,7 +4,8 @@
 #include <iostream>
 
 // 정수 출력 함수
-void PrintInteger(int& Data)
+// 주소 연산자 제거
+void PrintInteger(int Data)
 {
 	std::cout << Data << std::endl;
 }
@@ -17,6 +18,6 @@ void PrintString(const char* Str)
 int main()
 {
     PrintString("Hello World");
-	
+    PrintInteger(5);
     return 0;
 }
