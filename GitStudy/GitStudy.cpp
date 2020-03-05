@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+int AddInteger(int First, int Second)
+{
+	return First + Second;
+}
+
 // 정수 출력 함수
 // 주소 연산자 제거
 void PrintInteger(int Data)
