@@ -3,6 +3,12 @@
 
 #include <iostream>
 
+// 정수 출력 함수
+void PrintInteger(int& Data)
+{
+	std::cout << Data << std::endl;
+}
+
 void PrintString(const char* Str)
 {
     std::cout << Str << std::endl;
@@ -11,6 +17,6 @@ void PrintString(const char* Str)
 int main()
 {
     PrintString("Hello World");
-
+	
     return 0;
 }
